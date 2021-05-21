@@ -10,6 +10,7 @@
 #include <stdlib.h>
 
 int main(void) {
+	int a,b,c;
 	char a[10];
 	printf("Enter Your Name ");
 	scanf("%s",&a);
