@@ -7,10 +7,13 @@ int main(void) {
 	printf("Enter Your Choice\n");
 	printf("1. Addition \n2.Substraction \n3.Multiplication \n4.division \nEnter What You Need:");
 	scanf("%d",&c);
+	if (c>4){
+		printf("The Entered Number Is Not Available");
+	}
+	else {
 	printf("Enter 2 Number");
 	scanf("%d%d",&a,&b);
-	if (c==1)
-	{
+	if (c==1){
 		c=a+b;
 		printf("Sum is %d",c);
 	}
@@ -23,11 +26,13 @@ int main(void) {
 		c=a*b;
 		printf("mul is %d",c);
 	}
-	else
-	{
+	else if(c==4){
 		c=a/b;
 		printf("div is %d",c);
 	}
+	else{
+		printf("Error 401!!!! \nNot Found");
+	}
 
-
+	}
 }
