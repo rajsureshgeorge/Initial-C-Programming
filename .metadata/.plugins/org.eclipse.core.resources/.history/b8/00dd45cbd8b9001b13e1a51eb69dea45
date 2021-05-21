@@ -6,12 +6,11 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+using namespace std;
 
-int main(void) {
-	char a[10];
-	printf("Enter Your Name ");
-	scanf("%s",&a);
-	printf("You are %s",a);
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	printf("Hello World");
+	return 0;
 }

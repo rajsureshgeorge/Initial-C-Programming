@@ -10,8 +10,8 @@
 #include <stdlib.h>
 
 int main(void) {
-	char a[10];
-	printf("Enter Your Name ");
-	scanf("%s",&a);
-	printf("You are %s",a);
+	int a;
+	printf("Enter Your Name");
+	scanf("%d",&a);
+	printf("You are %d",a);
 }

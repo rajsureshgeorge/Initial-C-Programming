@@ -11,7 +11,7 @@
 
 int main(void) {
 	char a[10];
-	printf("Enter Your Name ");
-	scanf("%s",&a);
-	printf("You are %s",a);
+	printf("Enter Your Name");
+	scanf("%c",&a);
+	printf("You are %c",a);
 }
