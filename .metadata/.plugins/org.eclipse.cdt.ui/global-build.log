@@ -189,3 +189,47 @@ Invoking: GCC C++ Linker
 g++  -o "Initial"  ./src/Initial.o   
 Finished building target: Initial
  
+18:56:46 **** Build of configuration Debug for project Initial ****
+make all 
+Building file: ../src/Initial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial.d" -MT"src/Initial.o" -o "src/Initial.o" "../src/Initial.cpp"
+../src/Initial.cpp: In function ‘int main()’:
+../src/Initial.cpp:14:7: error: conflicting declaration ‘char a [10]’
+   14 |  char a[10];
+      |       ^
+../src/Initial.cpp:13:6: note: previous declaration as ‘int a’
+   13 |  int a,b,c;
+      |      ^
+make: *** [src/subdir.mk:20: src/Initial.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:15 **** Incremental Build of configuration Debug for project Initial ****
+make all 
+Building file: ../src/Initial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial.d" -MT"src/Initial.o" -o "src/Initial.o" "../src/Initial.cpp"
+Finished building: ../src/Initial.cpp
+ 
+Building target: Initial
+Invoking: GCC C++ Linker
+g++  -o "Initial"  ./src/Initial.o   
+Finished building target: Initial
+ 
+18:57:26 **** Incremental Build of configuration Debug for project Initial ****
+make all 
+make: Nothing to be done for 'all'.
+18:57:45 **** Incremental Build of configuration Debug for project Initial ****
+make all 
+Building file: ../src/Initial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial.d" -MT"src/Initial.o" -o "src/Initial.o" "../src/Initial.cpp"
+Finished building: ../src/Initial.cpp
+ 
+Building target: Initial
+Invoking: GCC C++ Linker
+g++  -o "Initial"  ./src/Initial.o   
+Finished building target: Initial
+ 
+18:57:54 **** Incremental Build of configuration Debug for project Initial ****
+make all 
+make: Nothing to be done for 'all'.

@@ -1,22 +1,6 @@
-07:43:10 **** Incremental Build of configuration Debug for project Initial ****
+18:57:54 **** Incremental Build of configuration Debug for project Initial ****
 make all 
-Building file: ../src/Initial.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial.d" -MT"src/Initial.o" -o "src/Initial.o" "../src/Initial.cpp"
-../src/Initial.cpp: In function ‘int main()’:
-../src/Initial.cpp:15:10: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
-   15 |  scanf("%s",&a);
-      |         ~^  ~~
-      |          |  |
-      |          |  char (*)[10]
-      |          char*
-Finished building: ../src/Initial.cpp
- 
-Building target: Initial
-Invoking: GCC C++ Linker
-g++  -o "Initial"  ./src/Initial.o   
-Finished building target: Initial
- 
+make: Nothing to be done for 'all'.
 
-07:43:11 Build Finished. 0 errors, 1 warnings. (took 823ms)
+18:57:55 Build Finished. 0 errors, 0 warnings. (took 720ms)
 

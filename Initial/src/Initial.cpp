@@ -11,8 +11,8 @@
 
 int main(void) {
 	int a,b,c;
-	char a[10];
-	printf("Enter Your Name ");
-	scanf("%s",&a);
-	printf("You are %s",a);
+	printf("Enter 2 Numbers \n");
+	scanf("%d %d",&a,&b);
+	c=a+b;
+	printf("Sum is %d",c);
 }
