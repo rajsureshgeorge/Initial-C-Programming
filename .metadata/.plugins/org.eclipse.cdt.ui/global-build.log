@@ -1,0 +1,24 @@
+07:00:31 **** Build of configuration Debug for project Initial ****
+make all 
+Building file: ../src/Initial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial.d" -MT"src/Initial.o" -o "src/Initial.o" "../src/Initial.cpp"
+Finished building: ../src/Initial.cpp
+ 
+Building target: Initial
+Invoking: GCC C++ Linker
+g++  -o "Initial"  ./src/Initial.o   
+Finished building target: Initial
+ 
+07:00:56 **** Incremental Build of configuration Debug for project Initial ****
+make all 
+Building file: ../src/Initial.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial.d" -MT"src/Initial.o" -o "src/Initial.o" "../src/Initial.cpp"
+Finished building: ../src/Initial.cpp
+ 
+Building target: Initial
+Invoking: GCC C++ Linker
+g++  -o "Initial"  ./src/Initial.o   
+Finished building target: Initial
+ 

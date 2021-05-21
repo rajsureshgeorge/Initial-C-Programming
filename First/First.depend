@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1620691814 source:/home/rajsureshgeorge/Documents/C_Programming/First/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1620692300 source:/home/rajsureshgeorge/Documents/C_Programming/First/second.c
+	<stdio.h>
+	<stdlib.h>
+
+1620692460 source:/home/rajsureshgeorge/Documents/C_Programming/First/mainew.c
+	<stdio.h>
+	<stdlib.h>
+
