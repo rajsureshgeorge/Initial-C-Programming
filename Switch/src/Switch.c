@@ -34,7 +34,7 @@ int main(void) {
 				printf("You Will Survive \nYou have chosen the third best vaccine Available");
 				break;
 			case 4:
-				printf("You Will Die by Taking the Vaccine \nYou have chosen the WORST SHIT ASSHOLE");
+				printf("You Will Die by Taking the Vaccine \nYou have chosen the WORST");
 				break;
 			default:
 				printf("fool");
