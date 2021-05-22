@@ -15,16 +15,18 @@ int main(void) {
 	int a,sum=0,i;
 		printf("Enter a Number");
 		scanf("%d",&a);
-		//printf("2 Numbers are %d and %d\n",a,b);
-		//a=b++;
-		//printf("2 Numbers are %d and %d",a,b);
-	for(i=0;i<=a;i++)
+	for(i=2;i<a/2;i++)
 	{
-		if (i%2==0){
-			printf("%d",i);
+		if (a%i==0){
+			sum=1;
+			break;
 		}
-		else{
-	printf(".");
-		}
+
+	}
+	if (sum==0){
+		printf("Prime");
+	}
+	else{
+		printf("Not Prime");
 	}
 }
