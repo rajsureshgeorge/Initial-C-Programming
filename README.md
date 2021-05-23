@@ -1,4 +1,4 @@
-# Intial-C-Programming
+# Initial-C-Programming
 Starting Programs
 
 #Basic C Programs.
