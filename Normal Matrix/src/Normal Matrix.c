@@ -8,7 +8,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void)
+{
 	int i,limit,j,row,column;
 	printf("Program For Matrix\n");
 			printf("Enter the Matrix row: ");
